@@ -1,0 +1,68 @@
+.container {
+  width: 790px;
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-top: 220px;
+}
+
+.title {
+  font-family: Inter;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  padding-bottom: 10px;
+}
+
+.form {
+  width: max-content;
+}
+
+.input-date {
+  padding-left: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 10px;
+  width: 370px;
+  margin-right: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.23);
+  font-family: Inter;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  border-radius: 5px;
+}
+
+.btn {
+  padding-left: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: 380px;
+  margin-right: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.23);
+  font-family: Inter;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  border-radius: 5px;
+  background-color: #5e55d6;
+  color: rgb(255, 255, 255);
+}
+
+.time-title {
+  margin-top: 40px;
+  font-family: Inter;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+}
+
+.time {
+  margin-top: 10px;
+  font-family: Inter;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 58px;
+}
