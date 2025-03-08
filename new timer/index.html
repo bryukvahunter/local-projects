@@ -3,7 +3,34 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <link rel="stylesheet" href="nullstyles.css" />
+    <link rel="stylesheet" href="style.css" />
+    <script defer type="module" src="main.js"></script>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+    </style>
+    <title>NE_UNIVAEM</title>
   </head>
-  <body></body>
+  <body>
+    <div class="container">
+      <h1 class="title">Введите дату</h1>
+      <div class="main-input-block">
+        <form class="form">
+          <input class="input-date" type="date" required />
+          <button class="btn">Посчитать</button>
+        </form>
+      </div>
+      <div class="output-block">
+        <h1 class="time-title">Осталось времени:</h1>
+        <div class="time">
+          <span class="years"></span>
+          <span class="months"></span>
+          <span class="days"></span>
+          <span class="hours"></span>
+          <span class="minutes"></span>
+          <span class="seconds"></span>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>
